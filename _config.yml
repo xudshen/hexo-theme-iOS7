@@ -7,6 +7,7 @@ menu:
 widgets: 
 - menu
 - tagcloud
+- search
 
 excerpt_link: Read More
 
@@ -26,4 +27,8 @@ weibo:
 	uid:
 	link:
 
-rss: http://xxx.xx/atom.xml
+twitter:
+	name: xudshen
+	link: https://twitter.com/xudshen
+
+rss: http://xudshen.info/atom.xml
