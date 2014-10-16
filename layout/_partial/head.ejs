@@ -35,6 +35,8 @@
   <% } else { %>
     <meta property="og:image" content="<%= config.cover %>"/>
   <% } %>
+   <!--for swiftype search-->
+   <meta property="st:image" content="/icon.png"/>
    <link rel="apple-touch-icon" href="/icon.png" />
    <link rel="shortcut icon" href="<%- config.root %>favicon.png" >
    <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
