@@ -6,7 +6,8 @@
 </section>
 <% } %>
 
-<% if (config.disqus_shortname){ %>
+<% if (config.disqus_shortname && page.comments){ %>
+<div id="disqus_thread" style="border-top: 1px solid #e3e3e5"></div>
 <script type="text/javascript">
   var disqus_shortname = '<%= config.disqus_shortname %>';
   <% if (page.permalink){ %>
