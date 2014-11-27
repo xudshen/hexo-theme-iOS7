@@ -4,9 +4,13 @@ menu:
   About: /about/
   Subscribe: /atom.xml
 
+gallery:
+  Gallery: //t.xudshen.info
+
 widgets: 
 - menu
 - tagcloud
+- gallery
 - search
 
 excerpt_link: Read More
